@@ -1,7 +1,7 @@
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -32,11 +32,11 @@ highlight_theme: normal
 
 
 # MathJax Support
-mathjax:
+mathjax: true
 
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
