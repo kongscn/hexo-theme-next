@@ -1,3 +1,10 @@
+todo:
+
+[ ] add reveal.js layout
+[ ] add impress.js layout
+[ ] add deck.js layout
+
+
 # NexT
 
 > 精于心，简于形
