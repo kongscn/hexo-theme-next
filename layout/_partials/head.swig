@@ -20,6 +20,10 @@
 
 <link rel="stylesheet" type="text/css" href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}"/>
 
+{% if page.colorful %}
+<link rel="stylesheet" type="text/css" href="{{ url_for(theme.css) }}/bootstrap_selected.css"/>
+{% endif %}
+
 {% if config.description %}
     <meta name="description" content="{{ config.description }}" />
 {% endif %}
